@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEX1.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="script.js"></script>
+
+<body>
+    <header>
+        <h1>HexEvent</h1>
+        <h2>Siempre contigo</h2>
+    </header>
+    <!--1.con el nav se realiza el menu de navegacion-->
+    <nav>
+        <ul>
+            <a href="#quesomos">¿Que somos?</a>
+            <a href="#quehacemos ">¿Que hacemos?</a>
+            <a href="#comolohacemos">como lo hacemos?</a>
+            <a href="#registro">Registro</a>
+    
+        </ul>
+    </nav>
+
+    <!--2. insertar las imagenes -->
+    <section id="inicio">
+        <img src="fondo.jpg" alt="fiestacorp">
+    </section>
+    <main>
+        <!--3.lista de informacion -->
+        <section id="quesomos">
+            <h2>Que somos?</h2>
+            <p>cordial saludo, permiteme presentarme me llamo juan pablo y soy el creador de esta fascinante idea
+                llamada HexEvents, soy un joven que busca reducir todo el fatigante trabajo de realizar evento
+                mi idea es que este hermoso sitio web te permita encontrar todas las herramientas y accesorios 
+                que necesites para tu evento, que puedas saber quienes van a tu evento, a que hora y a que lugar deben llegar.</p>
+        </section>
+        <section id="quehacemos">
+             <h2>Que hacemos?</h2 >
+            <p>mediante la web te brindaremos links, conexiones y catalogos de tiendas que pueden brindar los 
+                accesorios(comida, mesas,sonido y personal) asi mismo te brindaremos asesoria a la hora de
+                 realizar tu evento, si eres una empresa que busca realizar su parranda decembrina con sus empleados
+                esta web es perfecta para ti, solo dinos cuantas personas asisten, a que hora, si necesitas sonido, 
+                microfono, comida, decoracion, licor y transporte.</p>
+
+<!--4.formularios de registro -->
+<section id="registro">
+    <h2>Registro</h2>
+    <form action="#registro">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required><br><br>
+        <label for="contraseña">contraseña:</label>
+        <input type="contraseña" id="contraseña" name="contraseña" required><br><br>
+
+        <input type="submit" value="Registrarse">
+    </form>
+
+</section>
+        <!--5.pie de pagina -->
+    </main>
+    <footer>
+        <p>&copy; 2025 My Hex Page-- todos lo derechos reservados</p>
+    </footer>
+</body>
