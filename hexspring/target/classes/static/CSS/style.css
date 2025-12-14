@@ -1,0 +1,108 @@
+/* --- General --- */
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: #333;
+}
+
+.body-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* --- Login y registro --- */
+.login-box {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 230px;
+    background: #ad9611;
+    color: white;
+    height: 100vh;
+    padding: 20px;
+    position: fixed;
+}
+
+.sidebar nav a {
+    display: block;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+.sidebar nav a:hover,
+.sidebar .active {
+    background: #333;
+}
+
+/* contenido */
+.contenido {
+    margin-left: 260px;
+    padding: 20px;
+}
+
+.grid-dashboard {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    width: 30%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.btn {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/* Listas */
+.lista {
+    margin-top: 20px;
+}
+
+.lista div {
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
